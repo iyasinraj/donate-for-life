@@ -3,6 +3,242 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
-    font-family: 'Lato' ;
+    font-family: 'Lato', sans-serif;
 }
 
+/* top banner start */
+
+.top-banner{
+    display: flex;
+    background-image: url(images/topbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.top-content{
+    background-color: rgba(0, 0, 0, 0.608);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.top-middle{
+    padding-top: 250px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.top-banner h1{
+    font-size: 60px;
+}
+
+.top-banner p{
+    font-size: 25px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(201, 76, 8);
+    border: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* top banner end */
+
+
+/* Donate start */
+
+
+
+.donate-content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate-content h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.donate-content p{
+    font-size: 25px;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount h1{
+    font-size: 40px;
+    background-color: rgba(238, 236, 236, 0.575);
+    margin: 10px;
+    padding: 60px 70px;
+    border-radius: 20px;
+}
+
+#highlight{
+    background-color:  rgba(201, 76, 8, 0.382);
+    border: 5px solid  rgb(201, 76, 8);
+    color: rgb(55, 55, 55);
+}
+
+.other-amount{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    margin: 100px 100px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+/* Donate end */
+
+/* Donate plan start */
+.donate-plan{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.plan{
+    width: 100%;
+    margin: 100px 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.bg1{
+    background-color: rgba(0, 170, 255, 0.100);
+}
+
+.bg2{
+    background-color: rgba(230, 0, 255, 0.100);
+}
+
+.bg3{
+    background-color: rgba(225, 255, 0, 0.100);
+}
+
+.plan img{
+    width: 100px;
+    height: auto;
+}
+
+.plan h1{
+    font-size: 25px;
+}
+
+.plan p{
+    font-size: 15px;
+    text-align: justify;
+}
+/* Donate plan end */
+
+/* featured start */
+
+.featured{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.featured-item{
+    width: 100%;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 20px rgb(0, 0, 0);
+}
+
+.featured-item img{
+    width: 300px;
+    height: 400px;
+}
+
+.featured-item h1{
+    font-size: 25px;
+    color: gray;
+}
+
+.featured-item p{
+    font-size: 15px;
+    color: gray;
+    text-align: justify;
+}
+
+/* featured end */
+
+/* subscribe start */
+
+.subscribe{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: rgba(0, 170, 255, 0.120);
+}
+
+.sub-content{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.sub-content input{
+    width: 65%;
+    height: 50px;
+    font-size: 25px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.btn-2{
+    width: 35%;
+    height: 50px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* subscribe end */
+
+/* footer start */
+
+footer {
+    background-color: rgb(0, 0, 43);
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.footer h1{
+    font-size: 35px;
+}
+
+/* footer end */
